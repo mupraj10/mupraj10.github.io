@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter as Router,  Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import Sidebar from './Sidebar'
 
@@ -16,7 +16,7 @@ class App extends Component {
       
       <article className="avenir">
       <Router>
-        <div className="vh-100 dt w-100 bg-washed-green cover">
+        <div className="vh-100 dt w-100 tc bg-washed-green cover">
      
           <Sidebar />
          
