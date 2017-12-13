@@ -1,52 +1,41 @@
 import React, { Component } from "react";
+import {  Link } from "react-router-dom";
+
 
 import projects from "./projects-data";
 
 export default class Projects extends Component {
   render() {
-    const linkStyle = "link b hover-green no-underline black dib ph2 pv1";
+    // const linkStyle = "link hover-green no-underline black dib ph2 pv1";
+    const hoverStyle = "link dt w-100  pb2 mt2 dim blue"
     return (
       <section className="">
         <h3 className="lh-copy"> Projects </h3>
-
+        <main className="center">
         {projects.map(project => {
           return (
-            <article className="cf">
-              <div className="fl w-100 w-50-ns tc">
+            <Link className={hoverStyle} to={`projects/${project.link}`} >
+            <article key={project.id}>
+              <div className="dt w-100 pb2 mt2 " >
+                <div className="dt v-top pl2">
+                  <h1 className="f6 f5-ns fw6 lh-title black mv0">{project.name}</h1>
 
-              <div>
-              <h1 class="f4 bg-near-white br3 br--top black-60 mv0 pv2 ph3">Title of card</h1>
-              </div>
-              
-                <div className="tc">
-                  <a className={linkStyle} href={project.github}>
-                    Github
-                  </a>
-                  <a className={linkStyle} href={project.demo}>
-                    Demo
-                  </a>
-                  <a className={linkStyle} href={project.youtube}>
-                    Youtube
-                  </a>
+                  <p className="f6 fw4 mt2 mb0 black-60 measure-wide">{project.blurb}</p>
+      
                 </div>
-
-              
-
-              </div>
-              <div className="fl w-100 w-50-ns tc">
-
-              <img
-              src="http://tachyons.io/img/super-wide.jpg"
-              alt="A bright blue sky"
-              class="w-100 mw7 w5-ns"
-            />
-
-            
               </div>
             </article>
+            </Link>
+
+            
           );
         })}
+        </main>
       </section>
     );
   }
 }
+
+
+
+
