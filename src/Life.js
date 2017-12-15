@@ -7,7 +7,7 @@ export default class Life extends Component {
     console.log('in life')
     return (
 
-        <article className="vh-8 dt w-100 cf pt6 pl3 mw9 center">
+        <article className="vh-8 dt w-100 cf pv6 pl3 mw9 center">
 
 
           <header className="fl w-100">

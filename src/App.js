@@ -22,8 +22,7 @@ class App extends Component {
          
 
           <div className="fl w-100 w-70-m w-70-l">
-          this is supposed to be on the side
-         
+      
                 <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/life" component={Life} />
