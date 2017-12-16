@@ -4,16 +4,15 @@ import React, { Component } from 'react';
 
 export default class Life extends Component {
   render() {
-    console.log('in life')
     return (
 
         <article className="vh-8 dt w-100 cf pv6 pl3 mw9 center">
 
 
           <header className="fl w-100">
-            <h2 className="lh-title f3 b mt0 mb0">
+            <div className="f3 ttu tracked fs-normal mt0 mb0">
               Who am I? / Life
-            </h2>
+            </div>
           </header>
 
 
