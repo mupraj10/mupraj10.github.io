@@ -14,7 +14,7 @@ class App extends Component {
 
     return (
       
-      <article className="avenir">
+      <article className="system serif">
       <Router>
         <div className="vh-100 dt w-100 tc bg-washed-green cover">
      
