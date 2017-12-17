@@ -11,9 +11,9 @@ const Projects = () => {
 
       <div className="f3 fl pv3 ttu tracked fs-normal mt0 mb0">THINGS I'VE BUILT</div>
 
-      <section className="flex flex-wrap w-100 vh-50 pa2-m pa3-l  overflow-scroll">
+      <section className="flex flex-wrap w-100 vh-50 pa2-m pa3-l overflow-scroll">
         {projects.map(project => {
-          console.log(projects.length)
+        
           return (
             <Link
               key={`${project.name}project.id`}
@@ -21,11 +21,11 @@ const Projects = () => {
               to={`projects/${project.link}`}
             >
          
-            <span className="f5 ttu b tracked black">
+            <span className="f5 ttu bb fw7 tracked black">
             {project.name}
-          </span>
+            </span>
           
-             <p className="f6 mv1">{project.blurb}</p>
+             <p className="f6 mv1 tracked lh-copy black">{project.blurb}</p>
          
               
             </Link>

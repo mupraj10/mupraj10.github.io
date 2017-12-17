@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-const testImages = ['a', 'b', 'c', 'd']
+const testImages = ['a', 'b', 'c', 'd','e']
 export default class Fun extends Component {
   render() {
     return (
@@ -11,22 +11,26 @@ export default class Fun extends Component {
           Things I do for fun!
         </div>
 
-        <div className='w-100 pa3-m pa4-l dt'>
+        <div className="f4-ns f3 fl dt w-100 pv2 ttu tracked fs-normal mt0 mb0">
+        Boomrangs
+      </div>
+
+
+        <div className='flex flex-wrap w-100 vh-25 pa3-m pa4-l dt overflow-x-scroll'>
         
         {testImages.map(image=> {
           return(
-            <div key={image} className='fl w-100 w-25-m w-25-ns pa2-ns'> 
-            <div
-            style={{ backgroundImage: "url(http://mrmrs.github.io/images/0010.jpg)" }}
-            className="link aspect hide-child br3 cover bg-center"
-          >
-            <div className="white  br3 child bg-black-40 pa5">
-              Card title
-            </div>
-          </div>
+            <div key={image} className='fl w-25 pa1'> 
             
-            </div>
-           
+          <div className="aspect-ratio link hide-child aspect-ratio--1x1">
+          <img style={{backgroundImage:'url(http://mrmrs.github.io/images/0006.jpg)'}} 
+          className="db bg-center cover aspect-ratio--object" />
+            <div className="white aspect-ratio--object child bg-black-40 pv5-ns pv4">
+            Card title
+          </div>
+        </div>
+          </div>
+          
 
           )
         })}
@@ -41,3 +45,4 @@ export default class Fun extends Component {
     );
   }
 }
+

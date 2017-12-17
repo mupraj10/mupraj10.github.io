@@ -108,6 +108,30 @@ const projects = [{
             link: ""
         }
     ]
+},
+{
+    id: 23,
+    name: "Delyed",
+    link:'moodifs',
+    completed: false,
+    picture: "/",
+    blurb: "A progressive web application that uses sentiment analysis to provide you will a daily gif based on your mood of the day.",
+    info: "It also provides data visualization of your monthly, weekly moods to get a sense of how you are feeling!",
+    github: "https://github.com/mupraj10/mooddif",
+    demo: "currently unavailable",
+    frameworks: [{
+            name: "react",
+            link: ""
+        },
+        {
+            name: "sentimentJS",
+            link: ""
+        },
+        {
+            name: "giphyAPI",
+            link: ""
+        }
+    ]
 }
 ];
 
