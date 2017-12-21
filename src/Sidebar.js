@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {  Link } from "react-router-dom";
 
-const titles = ['life', 'projects', 'fun', 'writing', 'contact'];
+const titles = ['about','life', 'projects', 'fun', 'writing', 'contact'];
 const imgUrl = require('./images/me.jpg')
 
 export default class Navbar extends Component {
@@ -16,7 +16,7 @@ export default class Navbar extends Component {
         <div className="pa2 lh-copy db-ns flex justify-center">
           {titles.map(title => {
             return(
-              <Link key={title} className={btstyle} to={`/${title}`}> <span className=' pa2 br3 bg-animate hover-bg-pink'> {title} </span> </Link>
+              <Link key={title} className={btstyle} to={`/${title}`}> <span className='pa2 br3 bg-animate hover-bg-pink'> {title} </span> </Link>
             )
           })}
         
