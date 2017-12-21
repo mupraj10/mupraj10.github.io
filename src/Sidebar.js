@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {  Link } from "react-router-dom";
 
-const titles = ['about','life', 'projects', 'fun', 'writing', 'contact'];
+const titles = ['me','life', 'projects', 'fun', 'writing', 'contact'];
 const imgUrl = require('./images/me.jpg')
 
 export default class Navbar extends Component {

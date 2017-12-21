@@ -22,7 +22,7 @@ const Fun = () => {
                   <img
                     style={{
                       backgroundImage:
-                        'url(http://mrmrs.github.io/images/0006.jpg)'
+                        'url(https://s3.amazonaws.com/mup-portfolio-site/gh-babies.mp4)'
                     }}
                     className="db bg-center cover aspect-ratio--object"
                   />
@@ -39,6 +39,8 @@ const Fun = () => {
           Quotes
         </div>
         <Quotes />
+
+        <img src='./images/gh-babies.mov' />
       </section>
     );
   

@@ -88,7 +88,7 @@ const projects = [{
 {
     id: 3,
     name: "Delayed",
-    link:'moodifs',
+    link:'delayed',
     completed: false,
     picture: "/",
     blurb: "A progressive web application that uses sentiment analysis to provide you will a daily gif based on your mood of the day.",
@@ -110,28 +110,16 @@ const projects = [{
     ]
 },
 {
-    id: 23,
-    name: "Delyed",
-    link:'moodifs',
-    completed: false,
+    id: 4,
+    name: "Leslie Knopes Quotes API",
+    link:'leslie-knope',
+    completed: true,
     picture: "/",
-    blurb: "A progressive web application that uses sentiment analysis to provide you will a daily gif based on your mood of the day.",
-    info: "It also provides data visualization of your monthly, weekly moods to get a sense of how you are feeling!",
-    github: "https://github.com/mupraj10/mooddif",
+    blurb: "A simple API serving up Leslie Knope quotes from Parks and Recreation. It allows anyone to get a random quote or muliple quotes as a JSON Object.",
+    info: "A simple API serving up Leslie Knope quotes from Parks and Recreation. ",
+    github: "https://github.com/mupraj10/leslie-knope-quotes",
     demo: "currently unavailable",
-    frameworks: [{
-            name: "react",
-            link: ""
-        },
-        {
-            name: "sentimentJS",
-            link: ""
-        },
-        {
-            name: "giphyAPI",
-            link: ""
-        }
-    ]
+    frameworks: ['express']
 }
 ];
 
