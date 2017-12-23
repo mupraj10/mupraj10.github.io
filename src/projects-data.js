@@ -112,7 +112,7 @@ const projects = [{
 {
     id: 4,
     name: "Leslie Knopes Quotes API",
-    link:'leslie-knope',
+    link:'leslie-knope-api',
     completed: true,
     picture: "/",
     blurb: "A simple API serving up Leslie Knope quotes from Parks and Recreation. It allows anyone to get a random quote or muliple quotes as a JSON Object.",
