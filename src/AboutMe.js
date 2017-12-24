@@ -1,27 +1,33 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { Box, Card, BackgroundImage, Subhead, Heading, Text } from "rebass";
+import { Flex } from "rebass/dist/grid";
 
 const AboutMe = () => {
-  const linkStyle = "link blue dim";
   return (
-    <article className="vh-8 dt w-100 cf pv6-ns pv3 pl3 overflow-container">
-      <div className="f3 fl pv3 ttu tracked fs-normal mt0 mb0">Who am I?</div>
+    <Box p={1}>
+      <Heading  f={3} pl={3}>
+        Who am I?
+      </Heading>
+      <Flex align='left' py={[10,20]} px={[50,100]}>
+      <Card width={256}>
+	<BackgroundImage
+		ratio={1}
+		src='https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20'
+	/>
 
-      <section className="fl w-100">
-        <p className="fl pv3 ph5-ns ph-2 ma1 f5 lh-copy tracked">
-          Hello there. I am Maggy! I am a Full Stack Developer interested in
-          creating simple solutions to everyday problems.{" "}
-          <Link to="/projects" className={linkStyle}>
-            {" "}
-            #firstworldproblems
-          </Link>
+</Card>
+
+        <Text f={[1]} justify center >
+          Hello there. 👋
+          <br/>
+           I am Maggy! I am a Full Stack Developer interested in
+          creating simple solutions to everyday problems.{" "} 
+          <Link to="/projects">#firstworldproblems</Link>
           <br />
           Previously I worked as a Research Assistant in a virology lab and was
-          an Apple Genius before moving to the realm of programming.
-          <Link to="/life" className={linkStyle}>
-            {" "}
-            #experiences{" "}
-          </Link>
+          an Apple Genius before moving to the realm of programming. 
+          <Link to="/life">#experiences</Link>
           <br />
           I enjoy finding pizza and desserts in New York City, Boomranging, and
           taking photos with my iPhone and posting them on{" "}
@@ -30,14 +36,11 @@ const AboutMe = () => {
             href="https://www.instagram.com/maggyidk/"
           >
             Instagram
-          </a>.{" "}
-          <Link to="/fun" className={linkStyle}>
-            #funthings{" "}
-          </Link>
+          </a>. <Link to="/fun">#funthings </Link>
           <br />
-        </p>
-      </section>
-    </article>
+        </Text>
+      </Flex>
+    </Box>
   );
 };
 

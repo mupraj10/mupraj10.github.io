@@ -5,26 +5,26 @@ import {  Box, Flex, Heading, NavLink, Divider, Container} from 'rebass';
 
 
 const titles = ['me','life', 'projects', 'fun', 'writing', 'contact'];
-
+const imgUrl = require('./images/me.jpg')
 
 export default class Navbar extends Component {
   render() {
     
     return (
       
-      <Flex column align={['center']}  >
-        <Heading caps center fw='bold' pt={[2,2,3]} f={[4, 5, 6]} >MAGGY PRAJAPATI </Heading>
-        
-        <Flex wrap={['wrap', null , null ]} justify='center'  > 
+      <Box align='center' column >
+        <Heading caps center pt={2} f={[2, 3, 4]} >MAGGY PRAJAPATI </Heading>
+        <Flex wrap ={[1,1,2]}>
           {titles.map(title => {
             return(
-               <NavLink to={`/${title}`} is={Link}  f={[2,2,2]} py={0} px={1} key={title} > {title} </NavLink> 
+               <NavLink to={`/${title}`} is={Link}  p={5} key={title}  > {title} </NavLink> 
             )
           })}
+        
         </Flex>
         <Divider w={1}/> 
     
-      </Flex>
+      </Box>
     );
   }
 }
