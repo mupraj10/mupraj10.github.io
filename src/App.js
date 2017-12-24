@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-
+import { HashRouter as Router, Route, Switch} from 'react-router-dom';
+import styled from 'styled-components'
 import {
   Provider,
-  Border,
-  Divider,
-  Flex,
-  Box,
-  Container,
-  Heading
+  Box, Container, Caps, Link,  Pre
 } from 'rebass';
+import { Grid } from 'grid-styled'
 
 import Home from './Home';
 import AboutMe from './AboutMe';
@@ -34,16 +30,19 @@ const theme = {
   }
 };
 
+const MiddleBox = styled(Box)` height: 600px;`
+
 class App extends Component {
   render() {
     return (
       <Provider theme={theme}>
+
         <Router>
           <Box mt={3} mx={[1,2,3,5]} bg="pink">
           <Box mx={4}> 
             <Sidebar />
 
-            <Box >
+            <MiddleBox >
 
                 <Route exact path="/" component={Home} />
                 <Route exact path="/me" component={AboutMe} />
@@ -53,11 +52,26 @@ class App extends Component {
                 <Route exact path="/writing" component={Writing} />
                 <Route exact path="/fun" component={Fun} />
 
-            </Box>
+            </MiddleBox>
            
             </Box>
+            <footer>
+            <Container py={5}>
+             
+              
+                  
+                  <Link href="https://github.com/jxnblk">
+                    GitHub
+                  </Link>
+               
+               
+            
+            </Container>
+          </footer>
           </Box>
+
         </Router>
+    
       </Provider>
     );
   }
