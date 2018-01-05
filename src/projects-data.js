@@ -111,7 +111,7 @@ const projects = [{
 },
 {
     id: 4,
-    name: "Leslie Knopes Quotes API",
+    name: "Leslie Knope Quotes API",
     link:'leslie-knope',
     completed: true,
     picture: "/",

@@ -17,7 +17,7 @@ export default class Footer extends Component {
   </div>
       
   <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
-  {links.map(link =>  <a className="link black-80 hover-green pl2 f6" to={link.link}> {link.name} </a> )}
+  {links.map(link =>  <a className="link black-80 hover-green pl2 f6" href={link.link}> {link.name} </a> )}
    
     
   </div>

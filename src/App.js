@@ -8,6 +8,7 @@ import Life from "./Life";
 import Projects from "./Projects";
 import ProjectCard from "./ProjectCard";
 import Fun from "./Fun";
+import Talks from "./Talks";
 import Writing from "./Writing";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -19,14 +20,15 @@ class App extends Component {
 
         <Router>
           <div className="pa4-l normal ">
-            <div className="h-100 pa3 ph0-l pv4-l bg-black-05">
-              <div className="center mw7 bg-black-20">
+            <div className="h-100 pa3 ph0-l pv4-l ">
+              <div className="center mw7 ">
                 <Navbar />
                 <Route exact path="/" component={Home} />
                 <Route exact path="/me" component={AboutMe} />
                 <Route exact path="/life" component={Life} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/projects/:name" component={ProjectCard} />
+                <Route exact path='/talking' component={Talks} />
                 <Route exact path="/writing" component={Writing} />
                 <Route exact path="/fun" component={Fun} />
 

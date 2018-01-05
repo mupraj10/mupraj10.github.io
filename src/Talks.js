@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 
 import projects from "./projects-data";
 
-const Projects = () => {
-  // const linkStyle = "link hover-green no-underline black dib ph2 pv1";
+
+
+const Talks = () => {
+
   const projectStyle = "w-100 link b--black-10 pb2 mt3 dim ";
   return (
-    <section className="mt3 ph6 ph5-l measure-l">
+    <section className="mt3 ph6 ph5-l measure-l ">
 
-      <h2 className="b dib w-auto pv2 ma0">THINGS I'VE BUILT</h2>
+      <h3 className="b dib w-auto pv2 ma0">SOMETIMES I TALK ABOUT THINGS</h3>
 
     
         {projects.map(project => {
@@ -38,4 +40,6 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Talks;
+
+

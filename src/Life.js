@@ -1,31 +1,39 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-const events = [{a:1},{a:1},{a:1},{a:1},{a:1}];
+const events = [{ a: 1 }, { a: 1 }, { a: 1 }, { a: 1 }, { a: 1 }];
 
 const Life = () => {
   return (
-    <div  className="mt3 ph6 ph5-l measure-l ">
-    <h3 className="b dib w-auto pv2 ma0">Experience</h3>
-<br/>
-    <h4 className=" dib w-auto pv1 ma0">Tech-related</h4>
-  
-    <div className="mt1 f6">
-      <span className="b mr2 pv2 mv2 "><a href="https://www.digitalocean.com">Fullstack Academy</a></span>
-      <span>September 2017 – now</span>
-      <p className={'pv1 mv1'}>Teaching Fellow </p>
+    <div className="mt3 ph6 ph5-l measure-l ">
+      <h2 className="b dib w-auto pv2 ma0">EXPERIENCE</h2>
+      
+      <div className='mt1 mb3'>
+          <a
+            className="link black-80 hover-green pb2 f6"
+            href='./boomrang-data.js' download
+          >
+            resume
+          </a>
+      </div>
+      <h4 className=" dib w-auto pv1 ma0">Tech</h4>
+      <div className="mt1 f6">
+        <span className="f6 ttu fw7 tracked black">
+          Fullstack Academy 
+        </span>
+        <span className='f7'> September 2017 – now</span>
+        <p className="pv1 mv1">Teaching Fellow </p>
+      </div>
+      <h4 className=" dib w-auto pv1 ma0">Science</h4>
+      <div className="mt1 f6">
+        <span className="f6 ttu fw7 tracked black">
+          Fullstack Academy 
+        </span>
+        <span className='f7'> September 2017 – now</span>
+        <p className="pv1 mv1">Teaching Fellow </p>
+      </div>
+    
     </div>
-
-    <h4 className=" dib w-auto pv1 ma0">Science-related</h4>
-  
-    <div className="mt1 f6">
-      <span className="b mr2 pv2 mv2 "><a href="https://www.digitalocean.com">Fullstack Academy</a></span>
-      <span>September 2017 – now</span>
-      <p className={'pv1 mv1'}>Teaching Fellow </p>
-    </div>
-  
-   2
-  </div>
   );
 };
 
