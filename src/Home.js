@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
+import { Box, Card, BackgroundImage, Heading, Text, Small } from "rebass";
 
 export default class Home extends Component {
     
   render() {
-    console.log('in home')
+    
     return (
         
-        <article className="cf">
-
-        This is the home page
-       </article>
+        
+     'thing'
 
     );
   }

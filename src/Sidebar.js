@@ -13,7 +13,7 @@ export default class Navbar extends Component {
     return (
       
       <Flex column align={['center']}  >
-        <Heading caps center fw='bold' pt={[2,2,3]} f={[4, 5, 6]} >MAGGY PRAJAPATI </Heading>
+        <Heading caps center fw={900} pt={[2,2,3]} f={[4, 5, 6]}> MAGGY PRAJAPATI </Heading>
         
         <Flex wrap={['wrap', null , null]} justify='center'  > 
           {titles.map(title => {

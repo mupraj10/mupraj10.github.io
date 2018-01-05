@@ -18,15 +18,21 @@ import Sidebar from './Sidebar';
 import Footer from './Footer';
 
 const theme = {
-  font: '"Karla", Helvetica, sans-serif',
+  font: '"Karla", sans-serif',
+  breakpoints: [
+    // min-width breakpoints in ems
+    40, 52, 64
+  ],
   fontSizes: [8, 12, 16, 20, 24, 36, 48, 72],
   space: [0, 8, 16, 32, 64, 128],
-  weights: [200, 400, 600],
+  weights: [200, 400, 600,800],
   colors: {
     blue: '#3b5777',
     yellow: '#c3a481',
     pink: '#f8d7f2',
-    white: '#4b4b4b'
+    white: '#4b4b4b', 
+    green:'#1c4f48'
+
   }
 };
 
@@ -38,12 +44,10 @@ class App extends Component {
       <Provider theme={theme}>
 
         <Router>
-          <Box mt={3} mx={[1,2,3,5]}>
-          <Box mx={4}> 
-            <Sidebar />
-
+          <Box color='green' my={3} mx={3} p={3}>
+          <Sidebar />
             <MiddleBox >
-
+           
                 <Route exact path="/" component={Home} />
                 <Route exact path="/me" component={AboutMe} />
                 <Route exact path="/life" component={Life} />
@@ -55,20 +59,7 @@ class App extends Component {
             </MiddleBox>
            
             </Box>
-            <footer>
-            <Container py={5}>
-             
-              
-                  
-                  <Link href="https://github.com/jxnblk">
-                    GitHub
-                  </Link>
-               
-               
-            
-            </Container>
-          </footer>
-          </Box>
+    
 
         </Router>
     
