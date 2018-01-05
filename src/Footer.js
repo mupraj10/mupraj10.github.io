@@ -1,30 +1,28 @@
 import React, { Component } from 'react';
 import {  Link } from "react-router-dom";
 
-import {  Box, Flex, Heading, NavLink, Divider, Container} from 'rebass';
+import links from './my-info.js'
 
 
-const titles = ['me','life', 'projects', 'fun', 'writing', 'contact'];
-const imgUrl = require('./images/me.jpg')
 
-export default class Navbar extends Component {
+export default class Footer extends Component {
   render() {
     
     return (
+      <footer className="db dt-l w-100 pa2 ph3-l">
       
-      <Box align='center' column >
-        <Heading caps center pt={2} f={[2, 3, 4]} >MAGGY PRAJAPATI </Heading>
-        <Flex wrap ={[1,1,2]}>
-          {titles.map(title => {
-            return(
-               <NavLink to={`/${title}`} is={Link}  p={5} key={title}  > {title} </NavLink> 
-            )
-          })}
-        
-        </Flex>
-        <Divider w={1}/> 
+      <div className="db dtc-l v-
+  mid w-100 w-25-l tc tl-l mb2 mb0-l tracked ttu f5" >
+  Maggy Prajapati
+  </div>
+      
+  <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
+  {links.map(link =>  <a className="link black-80 hover-green pl2 f5" to={link.link}> {link.name} </a> )}
+   
     
-      </Box>
+  </div>
+
+</footer>
     );
   }
 }

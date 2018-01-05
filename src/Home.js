@@ -8,8 +8,12 @@ export default class Home extends Component {
     
     return (
         
-        
-     'thing'
+      <div className="mt3">
+      <p className="lh-copy f4 pa2 ph3-l tl measure-narrow">
+      'thing'
+      </p>
+    </div>   
+     
 
     );
   }
