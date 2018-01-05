@@ -22,7 +22,7 @@ export default class Navbar extends Component {
   <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
   {titles.map(title => {
           return (
-            <Link className="link black-80 f5 dib mr3 mr3-l" to={`/${title}`} key={title} title={title}>{title}</Link>
+            <Link className="link black-80 f6 dib mr3 mr3-l" to={`/${title}`} key={title} title={title}>{title}</Link>
 
           )
         })}

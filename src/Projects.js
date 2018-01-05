@@ -7,14 +7,15 @@ const Projects = () => {
   // const linkStyle = "link hover-green no-underline black dib ph2 pv1";
   const projectStyle = "w-100 link b--black-10 pb2 mt3 dim ";
   return (
-    <section className="vh-8 w-100 cf pv6-ns pv3 pl3 ">
+    <section className="mt3 ph6 ph5-l measure-l ">
 
-      <div className="f3 fl pv3 ttu tracked fs-normal mt0 mb0">THINGS I'VE BUILT</div>
+      <h3 className="b dib w-auto pv2 ma0">THINGS I'VE BUILT</h3>
 
-      <section className="flex flex-wrap w-100 vh-50 pa2-m pa3-l overflow-scroll">
+    
         {projects.map(project => {
         
           return (
+            <div className="mt1 mb3 f6">
             <Link
               key={`${project.name}project.id`}
               className={projectStyle}
@@ -25,13 +26,14 @@ const Projects = () => {
             {project.name}
             </span>
           
-             <p className="f6 mv1 tracked lh-copy black">{project.blurb}</p>
+             <p className="f6 mv1 lh-copy black">{project.blurb}</p>
          
               
             </Link>
+            </div>
           );
         })}
-      </section>
+     
     </section>
   );
 };
