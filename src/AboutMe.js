@@ -20,7 +20,7 @@ const AboutMe = () => {
       </Grid>
 
       <Grid w={[1, 3 / 4, 3 / 4]}>
-        <Text px={[0,1,2]} f={[2,2,3]} align={'center'} >
+        <Text px={[0,1,2]} f={[1,1,2]} align={'center'} >
           Hello there. 👋
           <br />
           I am Maggy! I am a Full Stack Developer interested in creating simple

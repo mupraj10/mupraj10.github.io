@@ -38,7 +38,7 @@ class App extends Component {
       <Provider theme={theme}>
 
         <Router>
-          <Box mt={3} mx={[1,2,3,5]} bg="pink">
+          <Box mt={3} mx={[1,2,3,5]}>
           <Box mx={4}> 
             <Sidebar />
 

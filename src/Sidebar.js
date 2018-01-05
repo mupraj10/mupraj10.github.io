@@ -4,7 +4,7 @@ import {  Link } from "react-router-dom";
 import {  Box, Flex, Heading, NavLink, Divider, Container} from 'rebass';
 
 
-const titles = ['me','life', 'projects', 'fun', 'writing', 'contact'];
+const titles = ['me','life', 'projects', 'fun', 'talking', 'writing', 'contact'];
 
 
 export default class Navbar extends Component {
