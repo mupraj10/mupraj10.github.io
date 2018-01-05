@@ -14,7 +14,7 @@ import Projects from './Projects';
 import ProjectCard from './ProjectCard';
 import Fun from './Fun';
 import Writing from './Writing';
-import Sidebar from './Sidebar';
+import Navbar from './Navbar';
 import Footer from './Footer';
 
 const theme = {
@@ -36,7 +36,7 @@ const theme = {
   }
 };
 
-const MiddleBox = styled(Box)` height: 600px;`
+
 
 class App extends Component {
   render() {
@@ -45,8 +45,9 @@ class App extends Component {
 
         <Router>
           <Box color='green' my={3} mx={3} p={3}>
-          <Sidebar />
-            <MiddleBox >
+          <Navbar />
+
+            
            
                 <Route exact path="/" component={Home} />
                 <Route exact path="/me" component={AboutMe} />
@@ -56,8 +57,6 @@ class App extends Component {
                 <Route exact path="/writing" component={Writing} />
                 <Route exact path="/fun" component={Fun} />
 
-            </MiddleBox>
-           
             </Box>
     
 
