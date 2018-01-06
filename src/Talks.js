@@ -3,21 +3,23 @@ import { Link } from "react-router-dom";
 
 import projects from "./projects-data";
 
-const Projects = () => {
- 
+
+
+const Talks = () => {
+
   const projectStyle = "w-100 link b--black-10 pb2 mt3 dim ";
   return (
-    <section className="mt3 ph3-s ph6-m ph3-l measure-l ">
+    <section className="mt3 ph6 ph5-l measure-l ">
 
-      <h2 className="b dib w-auto pv2 ma0">THINGS I HAVE BUILT</h2>
+      <h3 className="b dib w-auto pv2 ma0">SOMETIMES I TALK ABOUT THINGS</h3>
 
     
         {projects.map(project => {
         
           return (
-            <div key={`${project.name}project.id`} className="mt1 mb3 f6">
+            <div className="mt1 mb3 f6">
             <Link
-              
+              key={`${project.name}project.id`}
               className={projectStyle}
               to={`projects/${project.link}`}
             >
@@ -38,4 +40,6 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Talks;
+
+
