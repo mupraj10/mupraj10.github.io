@@ -5,8 +5,8 @@ const links = [
     link:'https://www.linkedin.com/in/maggy-prajapati'},
     {name:'email', 
     link:'mailto: mupraj10@gmail.com'},
-    {name:'twitter', 
-link:'https://www.twitter.com/maggyidk'}
+    {name:'instagram', 
+link:'https://www.instagram.com/maggyidk'}
 ]
 
 export default links;

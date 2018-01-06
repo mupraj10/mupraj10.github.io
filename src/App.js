@@ -8,6 +8,7 @@ import Life from "./Life";
 import Projects from "./Projects";
 import ProjectCard from "./ProjectCard";
 import Fun from "./Fun";
+import Skills from './Skills';
 import Talks from "./Talks";
 import Writing from "./Writing";
 import Navbar from "./Navbar";
@@ -28,6 +29,7 @@ class App extends Component {
                 <Route exact path="/life" component={Life} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/projects/:name" component={ProjectCard} />
+                <Route exact path='/skills' component={Skills} />
                 <Route exact path='/talking' component={Talks} />
                 <Route exact path="/writing" component={Writing} />
                 <Route exact path="/fun" component={Fun} />

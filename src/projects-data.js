@@ -6,6 +6,7 @@ const projects = [{
     picture: "/",
     blurb:"A web-based task management productivity tool inspired by the Bullet Journal system.",
     info: "A web-based task management productivity tool inspired by the Bullet Journal system. BuJo combines a journal, a planner, and a to-do list all in one. It provides data visualization of completed tasks to gain insight into what areas you are spending your efforts.",
+    features: '',
     github: "https://github.com/bujo1604/BuJo",
     demo: "https://bujo.herokuapp.com/",
     youtube: "https://www.youtube.com/watch?v=um_jAmuSNNM",

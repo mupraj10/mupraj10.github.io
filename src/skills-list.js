@@ -1,4 +1,4 @@
-const skills = [
+const skills = 
   {
     well: [
       'JavaScript',
@@ -14,7 +14,7 @@ const skills = [
     kinda: [
       'SQL',
       'PostSQL',
-      'GastbyJS',
+      'GatsbyJS',
       'React-Native',
       'CSS',
       'jQuery',
@@ -31,6 +31,6 @@ const skills = [
       'Tessel.io'
     ]
   }
-];
+;
 
 export default skills;
