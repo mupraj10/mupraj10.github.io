@@ -75,10 +75,11 @@ const projects = [
     link: 'moodifs',
     completed: false,
     picture: '/',
+    features: ['type in a mood and get a gif related to their feeling back', 'see a gallery of all their previous moods and associated gifs'],
     blurb:
       'A progressive web application that uses sentiment analysis to provide you will a daily gif based on your mood of the day.',
     info:
-      'It also provides data visualization of your monthly, weekly moods to get a sense of how you are feeling!',
+      'A progressive web application that uses sentiment analysis to provide you will a daily gif based on your mood of the day. It also provides data visualization of your monthly, weekly moods to get a sense of how you are feeling!',
     github: 'https://github.com/mupraj10/mooddif',
     demo: false,
     youtube: false,
@@ -104,9 +105,9 @@ const projects = [
     completed: false,
     picture: '/',
     blurb:
-      'A progressive web application that uses sentiment analysis to provide you will a daily gif based on your mood of the day.',
+      'A progressive web application uses MTA and user feedback to show if a train is delayed in real-time',
     info:
-      'It also provides data visualization of your monthly, weekly moods to get a sense of how you are feeling!',
+      'An application built to see if a train is delayed before the MTA annouces the delay via user communication',
     github: 'https://github.com/mupraj10/mooddif',
     demo: false,
     youtube: false,
@@ -134,7 +135,7 @@ const projects = [
     blurb:
       'A simple API serving up Leslie Knope quotes from Parks and Recreation.',
     info:
-      'A simple API serving up Leslie Knope quotes from Parks and Recreation.  It allows anyone to get a random quote or muliple quotes as a JSON Object.',
+      'A simple API serving up Leslie Knope quotes from Parks and Recreation.  It allows anyone to get a random quote or multiple quotes as a JSON Object.',
     github: 'https://github.com/mupraj10/leslie-knope-quotes',
     demo: 'https://leslie-knope-quotes.herokuapp.com/',
     youtube: false,

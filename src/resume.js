@@ -4,13 +4,19 @@ const resume = {
       company: 'Fullstack Academy',
       title: 'Teaching Fellow',
       dates: 'September 2017 - December 2017',
-      duties: ''
+      duties: 'Mentored, supported of a cohort size of approximately 30 students'
     },
     {
         company: 'Apple',
         title: 'Genius',
         dates: 'June 2014 - July 2017',
         duties: 'Provided hands on technical support for software and hardware based issues for customers'
+      },
+      {
+        company: 'St. Lawrence University',
+        title: 'Help Desk Assistant',
+        dates: 'January 2013 - May 2014',
+        duties: 'Assisted students and faculty with hardware and software related problems'
       }
   ],
   science: [
@@ -30,13 +36,13 @@ const resume = {
   ],
   education: [
     {
-        school: 'Grace Hopper Program',
+        name: 'Grace Hopper Program',
         degree: '3 Month Immersive Software Development Bootcamp',
         dates: 'September 2017 ',
         location: 'New York, NY'
       },
       {
-        school: 'St. Lawrence University',
+        name: 'St. Lawrence University',
         degree: 'Bachelors of Science, Neuroscience',
         dates: 'May 2014',
         location: 'Canton, NY'
@@ -46,9 +52,9 @@ const resume = {
 
 export default resume;
 
-{
-    company: '',
-    title: '',
-    dates: '',
-    duties: ''
-  }
+// {
+//     company: '',
+//     title: '',
+//     dates: '',
+//     duties: ''
+//   }

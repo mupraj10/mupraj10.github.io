@@ -8,7 +8,7 @@ export default class Home extends Component {
     
     return (
         
-      <div className="mt4 f5 tl ph4 ph5-l pb3 measure lh-copy">
+      <div className="mt3 ph3-s ph6-m ph3-l measure-l">
           <h2 className=' dib w-auto pv2 ma0'> Hello there! <span> 👋 </span> </h2>
           <p className='ma0 pa0 f6 mv3 lh-copy black'> 
           

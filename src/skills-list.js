@@ -13,7 +13,7 @@ const skills =
     ],
     kinda: [
       'SQL',
-      'PostSQL',
+      'PostgreSQL',
       'GatsbyJS',
       'React-Native',
       'CSS',

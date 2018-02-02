@@ -9,7 +9,7 @@ const Skills = () => {
       <section className="mt3 ph3-s ph6-m ph3-l measure-l  ">
         <h2 className="b dib w-auto pv2 ma0 ttu">THINGS I KNOW</h2>
 
-        <div className="black-80 pv2 f7" >
+        <div className="black-80 pv2 f7 tracked" >
           I want to believe that I can pickup skills fairly quickly. I am a huge fan of clean and nicely written documentation and if that is not possible I enjoy making cheat sheets. I really like doing tutorials and learning a bit of different frameworks and languages because an exposure of something will help me relate topics together! If there is a skill you think I should learn drop me a note <a href='mailto:mupraj10@gmail.com'> here. </a>
         </div>
 
