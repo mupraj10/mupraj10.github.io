@@ -21,8 +21,8 @@ class App extends Component {
 
         <Router>
           <div className="pa4-l normal ">
-            <div className="h-100 pa3 ph0-l pv4-l ">
-              <div className="center mw7 ">
+            <div className="h-100 pa3 ph0-l pv4-l home">
+              <div className="center mw7  ">
                 <Navbar />
                 <Route exact path="/" component={Home} />
                 <Route exact path="/me" component={AboutMe} />
