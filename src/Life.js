@@ -9,8 +9,8 @@ const science = resume.science;
 
 const Life = () => {
   return (
-    <div className="mt3 ph3-s ph6-m ph3-l measure-l  ">
-      <h2 className="b dib w-auto pv2 ma0">THINGS I HAVE DONE</h2>
+    <div className="lh-copy measure">
+      <h2 className="tc ma1">THINGS I HAVE DONE</h2>
 
       <div className="mt1 mb3">
           <a

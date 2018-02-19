@@ -1,12 +1,18 @@
 * { 
   box-sizing: border-box;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Space Mono', monospace;
  }
 
  body {
-   background-color: #4b4b4b 
+   background-color: #4b4b4b;
+   padding: 4px;
  }
 
  .home {
   background-color: #c28988
+ }
+
+ .scripty{
+  font-family: 'Rock Salt', cursive;
+
  }

@@ -15,31 +15,51 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 
+
+
 class App extends Component {
   render() {
     return (
 
-        <Router>
-          <div className="w-80-ns w-100 pa2 center home">
-           
-                <Navbar />
-                <div className="sans-serif  pa1 pv2 mb4 overflow-hidden"> 
-                <Route exact path="/" component={Home} />
-                <Route exact path="/me" component={AboutMe} />
-                <Route exact path="/life" component={Life} />
-                <Route exact path="/projects" component={Projects} />
-                <Route exact path="/projects/:name" component={ProjectCard} />
-                <Route exact path='/skills' component={Skills} />
-                <Route exact path='/talking' component={Talks} />
-                <Route exact path="/writing" component={Writing} />
-                <Route exact path="/fun" component={Fun} />
-                </div>
-                <Footer />
-               
+      <Router>
+
+
+        <article className="mw6 mw7-ns center home br3 vh-100 pa3 ph5-ns">
+    
+ 
+          <h1 className="scripty f2-ns f3 ma3 tc tracked ttu">Maggy Prajapati</h1>
+          
          
+            <Navbar />
+            <hr className='black' />
+
+          <div className="mw5 mw7-ns pa3 ph5-ns vh-75 overflow-y-scroll">
+            <Route exact path="/" component={Home} />
+            <Route exact path="/me" component={AboutMe} />
+            <Route exact path="/life" component={Life} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/projects/:name" component={ProjectCard} />
+            <Route exact path='/skills' component={Skills} />
+            <Route exact path='/talking' component={Talks} />
+            <Route exact path="/writing" component={Writing} />
+            <Route exact path="/fun" component={Fun} />
+
           </div>
-        </Router>
-  
+          <hr className='black' />
+          <Footer />
+        </article>
+
+
+
+
+
+
+
+
+
+
+      </Router>
+
     );
   }
 }
