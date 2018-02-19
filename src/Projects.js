@@ -5,36 +5,35 @@ import projects from "./projects-data";
 
 const Projects = () => {
  
-  const projectStyle = "w-100 link b--black-10 pb2 mt3 dim ";
+  const projectStyle = "dim link";
   return (
-    <section className="mt3 ph3-s ph6-m ph3-l measure-l ">
-
-      <h2 className="b dib w-auto pv2 ma0">THINGS I HAVE BUILT</h2>
-
-    
-        {projects.map(project => {
+    <div className="">
+      <h2 className="tc ma1">THINGS I HAVE BUILT</h2>
+      <div className="mt1">
+      
+      {projects.map(project => {
         
-          return (
-            <div key={`${project.name}project.id`} className="mt1 mb3 f6">
-            <Link
-              
-              className={projectStyle}
-              to={`projects/${project.link}`}
-            >
-         
-            <span className="f5 ttu bb fw7 tracked black">
-            {project.name} 
-            </span>
-          
-             <p className="f6 mv1 lh-copy black">{project.blurb}</p>
-         
-              
-            </Link>
-            </div>
-          );
-        })}
+        return (
+          <div key={`${project.name}project.id`} className="mv2">
+          <Link
+            className={projectStyle}
+            to={`projects/${project.link}`}
+          >
+          <h3 className="dib w-auto pv1 ma0 ttu tracked black bb">
+          {project.name}
+          </h3>
+        
+           <p className="f6 mv1 lh-copy black">{project.blurb}</p>
+            
+          </Link>
+          </div>
+        );
+      })}
+      
+      </div>
+        
      
-    </section>
+    </div>
   );
 };
 

@@ -3,16 +3,16 @@ import React, { Component } from 'react';
 
 import projects from './projects-data';
 
-export default class ProjectCard extends Component {
-  constructor(props) {
-    super(props);
-  }
 
-  render() {
-    let name = this.props.match.params.name;
+  const ProjectCard = (props) => {
+
+    let name = props.match.params.name;
+
     const project = projects.find(project => name === project.link);
 
     const projectStyle = 'w-100 link b--black-10 pb2 mt3 dim ';
+
+
     return (
       <section className="mt3 ph3-s ph6-m ph3-l measure-l  ">
         <h2 className="b dib w-auto pv2 ma0 ttu">{project.name}</h2>
@@ -47,8 +47,8 @@ export default class ProjectCard extends Component {
 
         <div className="mt1 mb3 f6">
           <span className="f5 ttu bb fw7 tracked black">Tech Stack</span>
-          {project.frameworks.map(frameworks => (
-            <p className="f6 mv1 lh-copy black">{frameworks.name}</p>
+          {project.frameworks.map(framework => (
+            <p key={framework}className="f6 mv1 lh-copy black"> {framework.name}</p>
           ))}
         </div>
 
@@ -59,4 +59,7 @@ export default class ProjectCard extends Component {
       </section>
     );
   }
-}
+
+
+export default ProjectCard;
+
