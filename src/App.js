@@ -20,10 +20,10 @@ class App extends Component {
     return (
 
         <Router>
-          <div className="pa4-l normal ">
-            <div className="h-100 pa3 ph0-l pv4-l home">
-              <div className="center mw7  ">
+          <div className="w-80-ns w-100 pa2 center home">
+           
                 <Navbar />
+                <div className="sans-serif  pa1 pv2 mb4 overflow-hidden"> 
                 <Route exact path="/" component={Home} />
                 <Route exact path="/me" component={AboutMe} />
                 <Route exact path="/life" component={Life} />
@@ -33,11 +33,10 @@ class App extends Component {
                 <Route exact path='/talking' component={Talks} />
                 <Route exact path="/writing" component={Writing} />
                 <Route exact path="/fun" component={Fun} />
-
+                </div>
                 <Footer />
-              </div>
-              
-            </div>
+               
+         
           </div>
         </Router>
   
