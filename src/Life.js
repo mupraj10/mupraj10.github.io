@@ -62,7 +62,7 @@ const Life = () => {
             </span>
             <span className="f7"> {job.dates}</span>
             <p className="pl1 pb1 ma0">{job.title}</p>
-            <p className=""> {job.duties}</p>
+            <p className="pl1 pb1 ma0"> {job.duties}</p>
           </div>
         )
       })}
