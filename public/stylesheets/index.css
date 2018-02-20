@@ -20,3 +20,8 @@
  .custom{
   height: 80vh;
  }
+
+ .boom{
+  height: 10rem;
+  /* object-fit: contain; */
+ }

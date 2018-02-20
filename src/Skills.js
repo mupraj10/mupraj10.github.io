@@ -1,6 +1,4 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-
+import React from 'react';
 import skills from './skills-list';
 
 const Skills = () => {
@@ -27,7 +25,7 @@ const Skills = () => {
           ))}
         </div>
 
-        <div className="mt1 mb3 ">
+        <div className="mt1 mb3">
           <h3 className="dib w-auto pv1 ma0 ttu tracked bb">Knowledgeable</h3>
 
           <div className="black-80 pv2 f7" >

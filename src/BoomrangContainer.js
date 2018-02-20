@@ -1,20 +1,50 @@
-import React from "react";
+import React, { Component } from 'react';
 import boomrangs from './boomrang-data';
 
-const Boomrangs = () => {
-    return (
-        <div> 
-        <a href="#" style={{backgroundImage:'url(http://mrmrs.github.io/images/0010.jpg)'}}
-        className="link mw5 dt hide-child br2 cover bg-center">
-        <span class="white dtc v-mid w-100 h-100 child bg-black-40 pa5">
-        Card title </span>
-        </a>
-        </div>
 
-    )
+export default class Boomrangs extends Component {
+    constructor() {
+        super()
+        this.state = {
+            video: true
+        }
+        this.playVideo = this.playVideo.bind(this);
+        this.pauseVideo = this.pauseVideo.bind(this);
+    }
+
+    playVideo(evt) {
+        let vidRef = evt.target;
+        this.setState({ video: false });
+        console.log('in play', vidRef);
+        vidRef.play();
+    }
+
+    pauseVideo(evt) {
+        let vidRef = evt.target;
+        this.setState({ video: true });
+        vidRef.pause();
+    }
+
+
+    render() {
+        return (
+            <div className="flex overflow-x-scroll" >
+                {boomrangs.map(boomrang => {
+                    return (
+                        <div className="pa2 " key={boomrang.title} >
+                            <video
+                                src={boomrang.url}
+                                className="link mw5 dt h5 br2 cover bg-center"
+                                onClick={this.state.video ? this.playVideo : this.pauseVideo} />
+                        </div>
+
+                    )
+                })}
+
+
+            </div>
+
+        )
+    }
 }
-
-export default Boomrangs;
-
-
 
