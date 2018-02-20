@@ -1,26 +1,30 @@
-import React from "react";
+import React from 'react';
 
-import Quotes from "./Quotes";
+import Quotes from './Quotes';
 import Boomrangs from './BoomrangContainer';
 
-const testImages = ["a", "b", "c", "d", "e"];
+
 const Fun = () => {
   return (
-    <section className="mt3 ph3-s ph6-m ph3-l measure-l ">
-      <h2 className="b dib w-auto pv2 ma0">THINGS I DO FOR FUN</h2>
+    <section className="">
+      <h2 className="tc ma1">THINGS I DO FOR FUN</h2>
 
-      <div className="mt1 mb3 f6">
-        <p className="f5 ttu fw7 tracked black">BOOMRANGS</p>
+      <div className="mt1 mb3 ">
+      
+        <h3 className="dib w-auto pv1 ma0 ttu tracked">BOOMRANGS</h3>
+        <div className="black-80 pv2 f7" >
+      Click on one to play it!
+        </div>
         <Boomrangs />
       </div>
 
-      <div className="mt1 mb3 f6">
-        <div className="f5 ttu fw7 tracked black">Quotes API</div>
+      <div className="mt1 mb3">
+        <h3 className="dib w-auto pv1 ma0 ttu tracked">Quotes API</h3>
         <Quotes />
       </div>
 
-      <div className="mt1 mb3 f6">
-        <div className="f5 ttu fw7 tracked black">Food</div>
+      <div className="mt1 mb3 ">
+        <h3 className="dib w-auto pv1 ma0 ttu tracked">Food</h3>
         container for food pictures
       </div>
     </section>
