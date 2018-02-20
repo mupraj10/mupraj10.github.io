@@ -8,7 +8,7 @@ const Skills = () => {
       <div className="">
         <h2 className="tc ma1">THINGS I KNOW</h2>
 
-        <div className="black-80 pv2 f7 tracked" >
+        <div className="black-80 pv2 f7 " >
 
           I love learning new things. Know about a new language or an interesting framework? <a className='link fw7 black' href='mailto:mupraj10@gmail.com'> Send me </a> a message and I will definitely look into it. 
         </div>
