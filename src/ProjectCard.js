@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
 import projects from './projects-data';
@@ -10,7 +10,7 @@ const ProjectCard = (props) => {
 
   const project = projects.find(theOne => name === theOne.link);
 
-  const projectStyle = 'w-100 link b--black-10 pb2 mt3 dim ';
+  // const projectStyle = 'w-100 link b--black-10 pb2 mt3 dim ';
 
 
   return (
