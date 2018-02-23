@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import styled from 'styled-components';
 
 import Home from './Home';
@@ -22,14 +22,14 @@ import Footer from './Footer';
       <Router>
 
 
-        <article className="mw6 mw7-ns center home br3 vh-100 pa3 ph5-ns">
+        <article className="mw6 mw7-ns center home br3  pa3 ph5-ns">
 
 
-          <h1 className="scripty f2-ns f3 ma3 tc tracked ttu">Maggy Prajapati</h1>
+          <Link className=' link b black hover-dark-gray ' to='/' > <h1 className="scripty f2-ns f3 ma3 tc tracked ttu">Maggy Prajapati</h1> </Link>
 
 
             <Navbar />
-            <hr className="black" />
+            <hr className="hrule" />
 
           <div className="mw7-ns pa3 ph4-ns vh-75 overflow-y-scroll">
             <Route exact path="/" component={Home} />
@@ -43,7 +43,7 @@ import Footer from './Footer';
             <Route exact path="/fun" component={Fun} />
 
           </div>
-          <hr className="black" />
+          <hr className="hrule" />
           <Footer />
         </article>
       </Router>

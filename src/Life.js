@@ -1,5 +1,7 @@
 import React from 'react';
-import resume from './resume';
+import resume from './data/resume';
+
+import pdf from './data/resume.pdf';
 
 const tech = resume.tech;
 const education = resume.education;
@@ -13,9 +15,14 @@ const Life = () => {
 
       <div className="mt1">
         <a
-          className="link black-80 hover-green pb2 f6"
-          href="./boomrang-data.js" download >
+          className="link black-80 hover-dark-gray pb2 pr2 f6"
+          href={pdf} download="Prajapati_Maggy_Resume_2018.pdf" >
           resume
+          </a>
+          <a
+          className="link black-80 hover-dark-gray pb2 f6"
+          href='' >
+          cv
           </a>
       </div>
 

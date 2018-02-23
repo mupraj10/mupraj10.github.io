@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import projects from './projects-data';
+import projects from './data/projects-data';
 
 
 const ProjectCard = (props) => {

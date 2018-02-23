@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import projects from "./projects-data";
+import projects from "./data/projects-data";
 
 
 

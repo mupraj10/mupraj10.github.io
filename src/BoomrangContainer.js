@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import boomrangs from './boomrang-data';
+import boomrangs from './data/boomrang-data';
 
 
 export default class Boomrangs extends Component {

@@ -9,7 +9,8 @@
  }
 
  .home {
-  background-color: #c28988
+  background-color: #c28988;
+  
  }
 
  .scripty{
@@ -24,4 +25,8 @@
  .boom{
   height: 10rem;
   /* object-fit: contain; */
+ }
+
+ .hrule{
+   border: 1px solid #4b4b4b;
  }

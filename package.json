@@ -5,17 +5,13 @@
   "private": true,
   "dependencies": {
     "15": "0.0.0",
-    "css-doodle": "^0.2.1",
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
-    "react-scroll-to-component": "^1.0.2",
-    "rebass": "^1.0.4",
-    "redux": "^3.7.2",
-    "video-react": "^0.9.4"
+    "redux": "^3.7.2"
   },
   "scripts": {
     "predeploy": "npm run build",
