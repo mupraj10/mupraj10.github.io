@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import boomrangs from './data/boomrangs-data';
 
+import photos from './data/photos-data'
 
-export default class Boomrangs extends Component {
+export default class Photos extends Component {
     constructor() {
         super()
         this.state = {
@@ -29,7 +29,7 @@ export default class Boomrangs extends Component {
     render() {
         return (
             <div className="flex overflow-x-scroll" >
-                {boomrangs.map(boomrang => {
+                {photos.map(boomrang => {
                     return (
                         <div className="pa2 " key={boomrang.title} >
                             <video

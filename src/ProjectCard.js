@@ -24,25 +24,26 @@ const ProjectCard = (props) => {
 
       <div className="mt1 mb3">
         <a
-          className="link black-80 hover-green pb2 f6"
+          className="link black-80 hover-dark-gray pb2 f6"
           href={project.github}
         >
           github
           </a>
         {project.demo &&
           <a
-          className="link black-80 hover-green pb2 pl2 f6"
+          className="link black-80 hover-dark-gray pb2 pl2 f6"
           href={project.demo} >
           demo
           </a> }
-        <a
-          className="link black-80 hover-green pb2 pl2 f6"
+        {project.youtube && 
+          <a
+          className="link black-80 hover-dark-gray pb2 pl2 f6"
           href={project.youtube}
         >
           youtube
-          </a>
+          </a> }
       </div>
-
+      Insert gif of project here 
       <div className="mt1 mb3 f6">
         <span className="f5 ttu bb fw7 tracked black">Info</span>
         <p className="f6 mv1 lh-copy black">{project.info}</p>
@@ -51,8 +52,7 @@ const ProjectCard = (props) => {
       <div className="mt1 mb3 f6">
         <span className="f5 ttu bb fw7 tracked black">Tech Stack</span>
         {project.frameworks.map(framework => (
-          //add a key here 
-          <p className="f6 mv1 lh-copy black"> {framework.name}</p>
+          <p key={`${framework.name}-{project.name}`} className="f6 mv1 lh-copy black"> {framework.name}</p>
         ))}
       </div>
 

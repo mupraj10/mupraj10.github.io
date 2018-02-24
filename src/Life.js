@@ -19,11 +19,7 @@ const Life = () => {
           href={pdf} download="Prajapati_Maggy_Resume_2018.pdf" >
           resume
           </a>
-          <a
-          className="link black-80 hover-dark-gray pb2 f6"
-          href='' >
-          cv
-          </a>
+
       </div>
 
       <div className="mt2 mb2">
@@ -34,7 +30,7 @@ const Life = () => {
            <div> <span className="f5 fw7">
            {school.name}
          </span>
-         <span className="f7"> {school.dates}</span></div> 
+         <span className="f7"> {school.dates}</span></div>
             <p className="pl1 pb1 ma0">{school.location}</p>
             <p className="pl1 pb1 ma0"> {school.degree}</p>
           </div>
@@ -80,3 +76,9 @@ const Life = () => {
 };
 
 export default Life;
+
+// <a
+//           className="link black-80 hover-dark-gray pb2 f6"
+//           href='' >
+//           cv
+//           </a>
