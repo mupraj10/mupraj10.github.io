@@ -50,7 +50,7 @@ const projects = [
     name: 'Ice Creamy',
     link: 'icecreamy',
     completed: false,
-    picture: '/',
+    picture: 'https://media.giphy.com/media/69jFa6S1WcGiiJIWIp/giphy.gif',
     blurb:
       'A native application that uses geolocation to find Ice Cream locations near you.',
     info:
@@ -108,7 +108,8 @@ const projects = [
       'A progressive web application uses MTA and user feedback to show if a train is delayed in real-time',
     info:
       'An application built to see if a train is delayed before the MTA annouces the delay via user communication',
-    github: 'https://github.com/mupraj10/mooddif',
+    github: 'https://github.com/mupraj10/mta-info',
+    features: 'currently still working on getting a frontend for this project',
     demo: false,
     youtube: false,
     frameworks: [

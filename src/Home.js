@@ -2,28 +2,23 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-
+  const styles = 'link b black hover-dark-gray'
 
   return (
 
     <div className="lh-copy">
-      <h2 className="tc"> Hello there! <span> 👋 </span> </h2>
+      <h2 className="tc"> Hello there! <span role='img'> 👋 </span> </h2>
       <p className="f5">
 
-        I am a Full Stack Developer interested in creating simple solutions to
-          everyday problems <Link to="/projects">#firstworldproblems</Link>.
+        I am a Full Stack Developer interested in creating simple solutions to everyday  <Link className={styles} to="/projects">problems</Link>. <span role='img'> 👋 </span> 
 
-        Previously, I worked as a Research Assistant in a virology lab and was
-        an Apple Genius before moving to the realm of programming
-          <Link to="/life">#experiences</Link> .
+        Previously, I <Link className={styles} to="/life"> worked </Link>  as a Research Assistant in a virology lab and was
+        an Apple Genius before moving to the realm of programming <span role='img'> 👋 </span> .
 
-        I enjoy finding pizza and desserts in New York City, Boomranging, and
-          taking photos with my iPhone and posting them on <a
-          className="no-underline black"
-          href="https://www.instagram.com/maggyidk/"
-        >
-          Instagram
-          </a>. <Link to="/fun">#funthings </Link>
+        I completed a 13 week immersive Javascript bootcamp at <a className={styles} > Grace Hopper </a> and recently finished a teaching fellowship. 
+
+        <br/>
+        I <Link className={styles} to="/fun"> enjoy </Link>
         <br />
       </p>
     </div>

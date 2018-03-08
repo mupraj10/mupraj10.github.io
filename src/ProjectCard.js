@@ -43,7 +43,7 @@ const ProjectCard = (props) => {
           youtube
           </a> }
       </div>
-      Insert gif of project here 
+     
       <div className="mt1 mb3 f6">
         <span className="f5 ttu bb fw7 tracked black">Info</span>
         <p className="f6 mv1 lh-copy black">{project.info}</p>
@@ -58,7 +58,7 @@ const ProjectCard = (props) => {
 
       <div className="mt1 mb3 f6">
         <span className="f5 ttu bb fw7 tracked black">Features</span>
-        <p className="f6 mv1 lh-copy black">{project.info}</p>
+        <p className="f6 mv1 lh-copy black">{project.features}</p>
       </div>
     </div>
   );

@@ -22,7 +22,7 @@ import Footer from './Footer';
       <Router>
 
 
-        <article className="mw6 mw7-ns center home br3  pa3 ph5-ns">
+        <article className="mw6 mw7-ns center home br3 pt3 ph3 pb1 ph5-ns">
 
 
           <Link className=' link b black hover-dark-gray ' to='/' > <h1 className="scripty f2-ns f3 ma3 tc tracked ttu">Maggy Prajapati</h1> </Link>
