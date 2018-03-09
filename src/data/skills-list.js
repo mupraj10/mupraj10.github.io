@@ -19,7 +19,9 @@ const skills =
       'CSS',
       'jQuery',
       'Mocha',
-      'Chai'
+      'Chai',
+      'AWS',
+      'S3'
     ],
     help: [
       'GraphQL',

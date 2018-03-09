@@ -28,6 +28,7 @@ export default class Quotes extends Component {
       <div className="tc fl w-100">
         <img
           onClick={this.handleClick}
+          alt='leslie knope'
           title="leslie"
           className="mt2 h3 w3"
           src="https://78.media.tumblr.com/f9f457178d53a883deeca856eb44d8bb/tumblr_mwokngzqS31swnmv6o6_400.png"

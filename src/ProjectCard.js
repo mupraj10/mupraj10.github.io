@@ -58,7 +58,10 @@ const ProjectCard = (props) => {
 
       <div className="mt1 mb3 f6">
         <span className="f5 ttu bb fw7 tracked black">Features</span>
-        <p className="f6 mv1 lh-copy black">{project.features}</p>
+        <ul className='list pl0 '> {project.features.map(feature => {
+          return <li className="f6 mv1 list lh-copy black">{feature}</li>
+        } )}
+        </ul>
       </div>
     </div>
   );

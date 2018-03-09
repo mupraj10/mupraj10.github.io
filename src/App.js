@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import styled from 'styled-components';
+import React from 'react';
+import { HashRouter as Router, Route, Link } from 'react-router-dom';
+
 
 import Home from './Home';
 import AboutMe from './AboutMe';

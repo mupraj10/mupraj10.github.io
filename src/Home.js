@@ -2,23 +2,26 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-  const styles = 'link b black hover-dark-gray'
+  const styles = 'link b black hover-dark-gray';
+  const emoji = 'f3'
 
   return (
 
     <div className="lh-copy">
-      <h2 className="tc"> Hello there! <span role='img'> 👋 </span> </h2>
-      <p className="f5">
+      <h2 className="tc"> Hello there! <span className={emoji} aria-label="hello" role="img"> 👋 </span> </h2>
+      <p className="f5 tc">
 
-        I am a Full Stack Developer interested in creating simple solutions to everyday  <Link className={styles} to="/projects">problems</Link>. <span role='img'> 👋 </span> 
+        I am a Software Engineer interested in creating simple solutions to everyday  <Link className={styles} to="/projects">problems</Link>. <span className={emoji} aria-label="girl typing" role="img"> 👩‍💻 </span>
+        <br />
+        In my previous life, I <Link className={styles} to="/life"> worked </Link>  as a Research Assistant in a virology lab <span aria-label="syringe" className={emoji} role="img"> 💉 </span>   and was
+       an Apple Genius <span className={emoji} aria-label="atom" role="img"> ⚛️ </span>
+       <br />
+        I recently graduated from and completed a teaching fellowship at  <a href="https://www.gracehopper.com/" className={styles} > Grace Hopper </a>  <span className={emoji} aria-label="graduating girl" role="img"> 👩‍🎓 </span>
 
-        Previously, I <Link className={styles} to="/life"> worked </Link>  as a Research Assistant in a virology lab and was
-        an Apple Genius before moving to the realm of programming <span role='img'> 👋 </span> .
-
-        I completed a 13 week immersive Javascript bootcamp at <a className={styles} > Grace Hopper </a> and recently finished a teaching fellowship. 
-
-        <br/>
-        I <Link className={styles} to="/fun"> enjoy </Link>
+        <br />
+        I <Link className={styles} to="/fun"> enjoy </Link> taking photos, eating delicious food and exploring new places. <span aria-label="cake" className={emoji} role="img"> 🍰 </span>
+        <br />
+        Currently, I am looking for my first Fullstack Developer/Software Engineer position, if you know one I would enjoy <a href="mailto:mupraj10@gmail.com" className={styles}> let me know!  </a>
         <br />
       </p>
     </div>

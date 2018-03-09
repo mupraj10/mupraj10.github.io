@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+
 
 const Writing = () => {
-  const linkStyle='link blue dim'
+  // const linkStyle='link blue dim'
     return (
       <article className="vh-8 dt w-100 cf pv6-ns pv3 pl3 overflow-container">
         <div className="f3 fl pv3 ttu tracked fs-normal mt0 mb0">

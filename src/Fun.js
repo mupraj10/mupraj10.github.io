@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Quotes from './Quotes';
-import Boomrangs from './BoomrangContainer';
+// import Boomrangs from './BoomrangContainer';
 import Photos from './PhotoContainer';
 
 const Fun = () => {
