@@ -4,7 +4,7 @@ const resume = {
       company: 'Fullstack Academy',
       title: 'Teaching Fellow',
       dates: 'September 2017 - December 2017',
-      duties: 'Mentored, supported of a cohort size of approximately 30 students'
+      duties: 'Mentored and supported of a cohort size of approximately 30 students as product manager and leader of code reviewsg'
     },
     {
         company: 'Apple',
