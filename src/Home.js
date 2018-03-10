@@ -17,7 +17,6 @@ const Home = () => {
        an Apple Genius. <span className={emoji} aria-label="atom" role="img"> ⚛️ </span>
        <br />
         I recently graduated from and completed a teaching fellowship at  <a href="https://www.gracehopper.com/" className={styles} > Grace Hopper. </a>  <span className={emoji} aria-label="graduating girl" role="img"> 👩‍🎓 </span>
-
         <br />
         I <Link className={styles} to="/fun"> enjoy </Link> taking photos, eating delicious food and exploring new places. <span aria-label="cake" className={emoji} role="img"> 🍰 </span>
         <br />
