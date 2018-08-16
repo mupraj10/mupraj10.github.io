@@ -1,6 +1,12 @@
 const resume = {
   tech: [
     {
+      company: 'Refinery29',
+      title: 'Teaching Fellow',
+      dates: 'June 2018 - Current',
+      duties: 'Part of the Creator team, implemented pull quote styling features in an enterprise-grade content management system using React, Redux, JavaScript, CSS, and HTML.'
+    },
+    {
       company: 'Fullstack Academy',
       title: 'Teaching Fellow',
       dates: 'September 2017 - December 2017',

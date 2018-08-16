@@ -22,16 +22,13 @@ import Footer from './Footer';
       <Router>
 
 
-        <article className="mw6 mw7-ns center home br3 pt3 ph3 pb1 ph5-ns">
+        <article className="mw6 mw7-ns center home br3 pt3 ph3 pb1 ph5-ns code">
 
 
           <Link className=' link b black hover-dark-gray ' to='/' > <h1 className="scripty f2-ns f3 ma3 tc tracked ttu">Maggy Prajapati</h1> </Link>
-
-
-            <Navbar />
             <hr className="hrule" />
 
-          <div className="mw7-ns pa3 ph4-ns vh-75 overflow-y-scroll">
+          <div className="mw7-ns pa2 ph4-ns vh-75 overflow-y-auto">
             <Route exact path="/" component={Home} />
             <Route exact path="/me" component={AboutMe} />
             <Route exact path="/life" component={Life} />
@@ -43,7 +40,7 @@ import Footer from './Footer';
             <Route exact path="/fun" component={Fun} />
 
           </div>
-          <hr className="hrule" />
+          
           <Footer />
         </article>
       </Router>

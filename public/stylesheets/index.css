@@ -1,25 +1,18 @@
 * { 
   box-sizing: border-box;
-  font-family: 'Space Mono', monospace;
+  color: #111111
  }
 
  body {
    padding: 4px;
-   /* background-color: #005867; */
-    /* background-color:#FFDFDF;  */
-    background-color: #e08581;
- }
+   /* background-image: linear-gradient(-90deg, #236D8B, #916E8E); */
+   background-image: linear-gradient(-90deg, #1E5D76, #BBA5B9);
+   /* background-image: linear-gradient(-90deg, #A48E0E, #DBCAA3); */
 
- .home {
-  
-   /* :  */
- }
+  }
 
- .scripty{
-  font-family: 'Rock Salt', cursive;
 
- }
-
+ 
  .custom{
   height: 80vh;
  }

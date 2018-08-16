@@ -76,9 +76,3 @@ const Life = () => {
 };
 
 export default Life;
-
-// <a
-//           className="link black-80 hover-dark-gray pb2 f6"
-//           href='' >
-//           cv
-//           </a>
