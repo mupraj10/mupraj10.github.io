@@ -11,7 +11,7 @@ import Fun from './Fun';
 import Skills from './Skills';
 import Talks from './Talks';
 import Writing from './Writing';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import Footer from './Footer';
 
 

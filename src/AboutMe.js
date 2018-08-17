@@ -5,10 +5,7 @@ import React from 'react';
 const AboutMe = () => {
   const styles = 'center w-50-ns w-100 db'
   return (
-
-    
-
-    <section className="">
+    <section>
 
       <h2 className="tc ma1">THINGS ABOUT ME </h2>
       <div className="black-80 pv2 f6 dt ta " >
