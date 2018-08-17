@@ -14,7 +14,7 @@ const Home = () => {
       <Emoji label="typing" symbol='👩‍💻'/> I <Link className={styles} to="/me">am</Link> a New York City based Full Stack Developer interested in creating simple solutions to everyday  <Link className={styles} to="/projects">problems</Link>. 
         <br />
         <p > In my previous <Link className={styles} to="/life">life</Link>,</p>
-        <p className="pl4"> 
+        <p > 
         <Emoji label="brain" symbol="🔮"/> I was deeply interested learning in how the brain worked so I ended up with a BSc in Neuroscience
         <br />   
         <Emoji label="syringe" symbol="💉"/> I conducted experiments to find out about how fusion works between cells and viruses
