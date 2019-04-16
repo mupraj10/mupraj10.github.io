@@ -1,9 +1,14 @@
 const resume = {
-  tech: [
+  tech: [{
+      company: 'Kustomer',
+      title: 'Implementations Engineer',
+      dates: 'Decemeber 2018 - Current',
+      duties: 'Configured and customized the Kustomer platform with Implementation Managers to meet the specific needs of multiple enterprise level accounts. Streamlined migration of scripts by code refactoring, adding testing, introducing automation, optimization and technical documentation'
+    },
     {
       company: 'Refinery29',
-      title: 'Teaching Fellow',
-      dates: 'June 2018 - Current',
+      title: 'Software Engineer',
+      dates: 'June 2018 - October 2018',
       duties: 'Part of the Creator team, implemented pull quote styling features in an enterprise-grade content management system using React, Redux, JavaScript, CSS, and HTML.'
     },
     {
@@ -13,46 +18,44 @@ const resume = {
       duties: 'Mentored and supported of a cohort size of approximately 30 students as product manager and leader of code reviews'
     },
     {
-        company: 'Apple',
-        title: 'Genius',
-        dates: 'June 2014 - July 2017',
-        duties: 'Provided hands on technical support for software and hardware based issues for customers'
-      },
-      {
-        company: 'St. Lawrence University',
-        title: 'Help Desk Assistant',
-        dates: 'January 2013 - May 2014',
-        duties: 'Assisted students and faculty with hardware and software related problems'
-      }
-  ],
-  science: [
+      company: 'Apple',
+      title: 'Genius',
+      dates: 'June 2014 - July 2017',
+      duties: 'Provided hands on technical support for software and hardware based issues for customers'
+    },
     {
-        company: 'Columbia University Medical Center',
-        title: 'Research Technician',
-        dates: 'June 2014 - July 2016',
-        duties: 'Performed experiments, maintained cell lines and laboratory inventory'
-      },
-      {
-        company: 'St. Lawrence University',
-        title: 'Assistant Student Researcher',
-        dates: 'January 2013 - May 2014',
-        duties: 'Tested on mice on a weekly basis on motor tasks to evaluate disease onset of ALS/MS/Huntington’s '
-      }
-      
+      company: 'St. Lawrence University',
+      title: 'Help Desk Assistant',
+      dates: 'January 2013 - May 2014',
+      duties: 'Assisted students and faculty with hardware and software related problems'
+    }
   ],
-  education: [
+  science: [{
+      company: 'Columbia University Medical Center',
+      title: 'Research Technician',
+      dates: 'June 2014 - July 2016',
+      duties: 'Performed experiments, maintained cell lines and laboratory inventory'
+    },
     {
-        name: 'Grace Hopper Program',
-        degree: '3 Month Immersive Software Development Bootcamp',
-        dates: 'September 2017 ',
-        location: 'New York, NY'
-      },
-      {
-        name: 'St. Lawrence University',
-        degree: 'Bachelors of Science, Neuroscience',
-        dates: 'May 2014',
-        location: 'Canton, NY'
-      }
+      company: 'St. Lawrence University',
+      title: 'Assistant Student Researcher',
+      dates: 'January 2013 - May 2014',
+      duties: 'Tested on mice on a weekly basis on motor tasks to evaluate disease onset of ALS/MS/Huntington’s '
+    }
+
+  ],
+  education: [{
+      name: 'Grace Hopper Program',
+      degree: '3 Month Immersive Software Development Bootcamp',
+      dates: 'September 2017 ',
+      location: 'New York, NY'
+    },
+    {
+      name: 'St. Lawrence University',
+      degree: 'Bachelors of Science, Neuroscience',
+      dates: 'May 2014',
+      location: 'Canton, NY'
+    }
   ]
 };
 

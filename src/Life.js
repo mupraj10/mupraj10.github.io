@@ -16,7 +16,8 @@ const Life = () => {
       <div className="mt1">
         <a
           className="link black-80 hover-dark-gray pb2 pr2 f6"
-          href={pdf} download="Prajapati_Maggy_Resume_2018.pdf" >
+          href={pdf}>
+         
           resume
           </a>
 

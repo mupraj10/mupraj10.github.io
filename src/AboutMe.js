@@ -22,7 +22,6 @@ const AboutMe = () => {
      <span className="black-80 pv2 f7 " >
      Last day of Apple Training!
      </span> </div>
-      
       I decided to quit my jobs and take a leap of faith and joined Grace Hopper Program at Fullstack Academy. The transition was difficult but definitely worth it in the end. It is a satisfying feeling to build a program that can help solve our problems. During my time at Grace Hopper Program, I fell especially in love with machine learning. It is the perfect merger of the two things I enjoy and hope to work in that field one day.
       <div className='pv2 tc'><img src="https://media.giphy.com/media/2rAyWHIUGmavrjuxwA/giphy.gif" className={styles} alt=" first program" /> 
       <span className="black-80 pv2 f7 " >
