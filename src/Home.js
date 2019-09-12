@@ -28,7 +28,7 @@ const Home = () => {
         <br />
         <Emoji label="dancing" symbol="💃🏽" /> I learned all about Content Management Systems as Software Engineering Intern at  <a href="https://www.refinery29.com/" className={styles} >Refinery29</a>.
  
-       <p> <Emoji label="air hands" symbol="🙌🏽 " /> Currently, I work as an Implementations Engineer at  <a href="https://www.kustomer.com/" className={styles} >Kustomer</a> helping clients get up and running to build customer friendships </p>
+       <p> <Emoji label="air hands" symbol="🙌🏽 " /> Currently, I work as an Software Engineer at  <a href="https://www.kustomer.com/" className={styles} >Kustomer</a> helping clients get up and running to build customer friendships </p>
 
         <span> I am always looking for a new challenge, if you know of one
        <br />
