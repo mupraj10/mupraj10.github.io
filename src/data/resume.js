@@ -1,13 +1,13 @@
 const resume = {
   tech: [{
       company: 'Kustomer',
-      title: 'Implementations Engineer',
+      title: 'Software Engineer - Implementations',
       dates: 'Decemeber 2018 - Current',
-      duties: 'Configured and customized the Kustomer platform with Implementation Managers to meet the specific needs of multiple enterprise level accounts. Streamlined migration of scripts by code refactoring, adding testing, introducing automation, optimization and technical documentation'
+      duties: 'Streamlined bulk migration scripts by code refactoring, adding testing, introducing automation, optimization and technical documentation'
     },
     {
       company: 'Refinery29',
-      title: 'Software Engineer',
+      title: 'Software Engineer - Intern',
       dates: 'June 2018 - October 2018',
       duties: 'Part of the Creator team, implemented pull quote styling features in an enterprise-grade content management system using React, Redux, JavaScript, CSS, and HTML.'
     },
