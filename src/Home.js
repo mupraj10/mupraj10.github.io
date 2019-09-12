@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Emoji from './Emoji'
 
 const Home = () => {
-  const styles = 'link b black hover-dark-gray';
+  const styles = 'link b black hover-dark-gray underline-hover';
 
   return (
 
@@ -20,10 +20,10 @@ const Home = () => {
         <br />
         <Emoji label="atom" symbol="⚛️" /> I solved complex customer Mac/iPhone issues as an Apple Genius
 
-        <span> <Emoji label="graduating" symbol="👩‍🎓" /> I graduated from and completed a teaching fellowship at  <a href="https://www.gracehopper.com/" className={styles} > Grace Hopper </a>  </span>
+        <span> <Emoji label="graduating" symbol="👩‍🎓" /> I graduated from and completed a teaching fellowship at  <a href="https://www.gracehopper.com/" className={styles} >Grace Hopper</a>  </span>
 
         <br />
-        <Emoji label="cake" symbol="🍰" /> I <Link className={styles} to="/fun"> enjoy </Link> taking photos, eating delicious food and exploring new places
+        <Emoji label="cake" symbol="🍰" /> I <Link className={styles} to="/fun">enjoy</Link> taking photos, eating delicious food and exploring new places
 
         <br />
         <Emoji label="dancing" symbol="💃🏽" /> I learned all about Content Management Systems as Software Engineering Intern at  <a href="https://www.refinery29.com/" className={styles} >Refinery29</a>.
@@ -32,7 +32,7 @@ const Home = () => {
 
         <span> I am always looking for a new challenge, if you know of one
        <br />
-          <a href="mailto:mupraj10@gmail.com" className={styles}> let me know! </a>
+          <a href="mailto:mupraj10@gmail.com" className={styles}>let me know!</a>
         </span>
 
       </div>
