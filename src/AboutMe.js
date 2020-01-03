@@ -27,11 +27,24 @@ const AboutMe = () => {
       <span className="black-80 pv2 f7 " >
       This was the first program I ever wrote in Ruby!
       </span> </div>
-      After completing my bootcamp, I stayed on as a teaching fellow to help consolidate my knowledge and help others as my fellows had done. Post fellowship, I am self-teaching myself new languages and frameworks to broaden my skill set. When not on the inter-web, you can find me attending meetups and tech events, or trying out a new ice cream shop. I am attempting to find my niche in tech and excited about the journey ahead for me. 
+      After completing my bootcamp, I stayed on as a teaching fellow to help consolidate my knowledge and help others as my fellows had done. Post fellowship, I am self-teaching myself new languages and frameworks to broaden my skill set.
       <div className='pv2 tc'><img src="https://media.giphy.com/media/4MZATlffW7hF3EWYCS/giphy.gif" className={styles} alt="graduation" /> 
      <span className="black-80 pv2 f7 " >
       Last day of GH fellowship and GH 1709 graduation!
      </span> </div>
+     Working at Refinery29, I started as an intern where I learned all the skills from a great mentor! I worked on their internal homegrown CMS mainly on the frontend in Javascript using React and Redux, building features for editors to add new styles to their stories, ie pull quote styling. I unfortunately had to leave since they didn’t have the funding to bring me on full time. 
+     <div className='pv2 tc'><img src="https://mup-portfolio-site.s3.amazonaws.com/r29.jpg" className={styles} alt="r29" /> 
+    <span className="black-80 pv2 f7 " >
+     First day at Refinery29!
+    </span> </div>
+    I countinued my journey to work for Kustomer as an Implementations Engineer. I work with a team to get companies who want to use Kustomer as their CRM platform ready to use. Building unique and complex integrations, I learned how to work with complex APIs and build user friendly UIs. I worked with my team to build better and automated applications to simply the onboardiing process.
+    <div className='pv2 tc'><img src="https://mup-portfolio-site.s3.amazonaws.com/kusty.jpg" className={styles} alt="kustomer" /> 
+   <span className="black-80 pv2 f7 " >
+    First day at Kustomer!
+   </span> </div>
+    When not on the inter-web, you can find me attending meetups and tech events, or trying out a new ice cream shop. I am attempting to find my niche in tech and excited about the journey ahead for me. 
+    <br/>
+    <br/>
       <div className='tc'> Think I am a good fit for your company? <a href="mailto:mupraj10@gmail.com" className='link b black hover-dark-gray'> let me know! </a> </div>
       <br/>
       <div className='tc'> Thanks for reading! </div>

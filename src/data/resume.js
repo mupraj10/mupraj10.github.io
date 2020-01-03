@@ -1,7 +1,7 @@
 const resume = {
   tech: [{
       company: 'Kustomer',
-      title: 'Software Engineer - Implementations',
+      title: 'Implementations Engineer',
       dates: 'Decemeber 2018 - Current',
       duties: 'Streamlined bulk migration scripts by code refactoring, adding testing, introducing automation, optimization and technical documentation'
     },
