@@ -10,7 +10,8 @@ const Home = () => {
     <div className="lh-copy">
       <h2 className="tc"><Emoji label="hello" symbol="👋" />  Hello there! </h2>
       <div className="f6 tc">
-        <Emoji label="typing" symbol='👩‍💻' /> I <Link className={styles} to="/me">am</Link> a New York City based Software Engineer interested in creating simple solutions to everyday  <Link className={styles} to="/projects">problems</Link>.  Currently, I am an Implementions Engineer helping companies get up and running to build customer friendships with <a href="https://www.kustomer.com/" className={styles} >Kustomer</a>.
+        <Emoji label="typing" symbol='👩‍💻' /> I <Link className={styles} to="/me">am</Link> a New York City based Software Engineer interested in creating simple solutions to everyday  <Link className={styles} to="/projects">problems</Link>.
+        <br/>  Currently, I am an Software Engineer building integrations and internal tools at <a href="https://www.kustomer.com/" className={styles} >Kustomer</a>.
        <br />
         <br />
          Quick glance into my past <Link className={styles} to="/life">life</Link>:
